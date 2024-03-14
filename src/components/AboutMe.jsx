@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className='flex flex-col md:flex-row lg:flex-row justify-center items-center gap-6 py-4'>
                     <img src={aboutMe} className=' w-[250px] md:w-[350px] lg:[w-400px] rounded-3xl ' alt="" />
                     <div className='flex flex-col justify-center items-center gap-4'>
-                        <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-between lg:justify-between items-center  gap-4'>
+                        <div className='flex flex-row md:flex-row lg:flex-row justify-center md:justify-between lg:justify-between items-center  gap-4'>
                             <div className='border-2 rounded-3xl px-10 py-6 flex flex-col justify-center items-center'>
                                 <img className='w-[30px] mb-2' src={experience} alt="" />
                                 <div className='text-center'>

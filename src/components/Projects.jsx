@@ -10,7 +10,7 @@ const Projects = () => {
                 <span className='text-lg text-gray-400'>Browse My Recent</span>
                 <h2 className='text-6xl font-bold '>Projects</h2>
             </div>
-            <div className='grid grid-cols-3 gap-6 px-14 py-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 px-2 md:px-14 lg:px-14 py-20'>
                 <div className='border-2 p-6 rounded-2xl flex flex-col justify-center items-center gap-4'>
                     <img src={project1} className='h-64 rounded-3xl' alt="" />
                     <h3 className='text-2xl font-bold text-center'>Project One</h3>

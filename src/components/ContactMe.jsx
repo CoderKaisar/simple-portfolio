@@ -11,11 +11,15 @@ const ContactMe = () => {
             </div>
             <div className='flex justify-center items-center'>
 
-                <div className='flex justify-center items-center border w-[450px] border-gray-100 py-8 px-10 rounded-3xl'>
-                    <img src={email} className='w-8' alt="" />
-                    <button className='hover:text-gray-500 text-2xl hover:border-b px-2'>Example@gmail.com</button>
-                    <img src={linkedin} className='w-8' alt="" />
-                    <button className='hover:text-gray-500 text-2xl hover:border-b px-2'>LinkedIn</button>
+                <div className='flex flex-col md:flex-row lg:flex-row justify-center items-center border gap-10 w-[450px] border-gray-100 py-8 px-10 rounded-3xl'>
+                    <div className='flex justify-start items-center'>
+                        <img src={email} className='w-8' alt="" />
+                        <button className='hover:text-gray-500 text-2xl hover:border-b px-2'>Example@gmail.com</button>
+                    </div>
+                    <div className='flex justify-start items-center'>
+                        <img src={linkedin} className='w-8' alt="" />
+                        <button className='hover:text-gray-500 text-2xl hover:border-b px-2'>LinkedIn</button>
+                    </div>
 
                 </div>
             </div>
